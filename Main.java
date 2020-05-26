@@ -54,7 +54,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("0 - ruch do gory 1 ruch w dol\n2 - ruch w prawo 3 - ruch w lewo");
-		
+		System.out.println("Celem gry jest zjedzenie K, my ruszamy sie X, \nStaniecie na O powoduje ze K czeka przez 4 ruchy, 'N' probuje nas zlapac");
+		System.out.println("* to sciany na ktore gracz nie moze wejsc (jeszcze nie dziala dla skrajnych scian)");
 		int xK = 0, yK = 0;
 		int xB = 5, yB = 5;
 		int xN = 9, yN = 9;
